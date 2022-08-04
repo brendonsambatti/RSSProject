@@ -7,48 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA880BCA289B2DD30000F22B /* UiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA880BC8289B2DD30000F22B /* UiTableViewCell.swift */; };
+		DA880BCB289B2DD30000F22B /* UiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA880BC9289B2DD30000F22B /* UiTableViewCell.xib */; };
+		DA880BD6289B50320000F22B /* ReadMoreScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA880BD5289B50320000F22B /* ReadMoreScreen.storyboard */; };
+		DA880BD8289B508F0000F22B /* ReadMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA880BD7289B508F0000F22B /* ReadMoreViewController.swift */; };
+		DA880BDA289B57370000F22B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA880BD9289B57370000F22B /* Extensions.swift */; };
 		DAF1D2C2289AF8DC005CC999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2C1289AF8DC005CC999 /* AppDelegate.swift */; };
 		DAF1D2C4289AF8DC005CC999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2C3289AF8DC005CC999 /* SceneDelegate.swift */; };
-		DAF1D2C6289AF8DC005CC999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2C5289AF8DC005CC999 /* ViewController.swift */; };
-		DAF1D2C9289AF8DC005CC999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF1D2C7289AF8DC005CC999 /* Main.storyboard */; };
+		DAF1D2C6289AF8DC005CC999 /* NewsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2C5289AF8DC005CC999 /* NewsScreenViewController.swift */; };
+		DAF1D2C9289AF8DC005CC999 /* NewsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF1D2C7289AF8DC005CC999 /* NewsScreen.storyboard */; };
 		DAF1D2CB289AF8EE005CC999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF1D2CA289AF8EE005CC999 /* Assets.xcassets */; };
 		DAF1D2CE289AF8EE005CC999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF1D2CC289AF8EE005CC999 /* LaunchScreen.storyboard */; };
-		DAF1D2D9289AF8EF005CC999 /* RSSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2D8289AF8EF005CC999 /* RSSProjectTests.swift */; };
-		DAF1D2E3289AF8EF005CC999 /* RSSProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2E2289AF8EF005CC999 /* RSSProjectUITests.swift */; };
-		DAF1D2E5289AF8EF005CC999 /* RSSProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2E4289AF8EF005CC999 /* RSSProjectUITestsLaunchTests.swift */; };
+		DAF1D2F3289AFA24005CC999 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF1D2F2289AFA24005CC999 /* News.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DAF1D2D5289AF8EF005CC999 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAF1D2B6289AF8DC005CC999 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAF1D2BD289AF8DC005CC999;
-			remoteInfo = RSSProject;
-		};
-		DAF1D2DF289AF8EF005CC999 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAF1D2B6289AF8DC005CC999 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAF1D2BD289AF8DC005CC999;
-			remoteInfo = RSSProject;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		DA880BC8289B2DD30000F22B /* UiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTableViewCell.swift; sourceTree = "<group>"; };
+		DA880BC9289B2DD30000F22B /* UiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UiTableViewCell.xib; sourceTree = "<group>"; };
+		DA880BD5289B50320000F22B /* ReadMoreScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReadMoreScreen.storyboard; sourceTree = "<group>"; };
+		DA880BD7289B508F0000F22B /* ReadMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreViewController.swift; sourceTree = "<group>"; };
+		DA880BD9289B57370000F22B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DAF1D2BE289AF8DC005CC999 /* RSSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF1D2C1289AF8DC005CC999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF1D2C3289AF8DC005CC999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAF1D2C5289AF8DC005CC999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAF1D2C8289AF8DC005CC999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF1D2C5289AF8DC005CC999 /* NewsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreenViewController.swift; sourceTree = "<group>"; };
+		DAF1D2C8289AF8DC005CC999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewsScreen.storyboard; sourceTree = "<group>"; };
 		DAF1D2CA289AF8EE005CC999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF1D2CD289AF8EE005CC999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAF1D2CF289AF8EE005CC999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAF1D2D4289AF8EF005CC999 /* RSSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAF1D2D8289AF8EF005CC999 /* RSSProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSProjectTests.swift; sourceTree = "<group>"; };
-		DAF1D2DE289AF8EF005CC999 /* RSSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAF1D2E2289AF8EF005CC999 /* RSSProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSProjectUITests.swift; sourceTree = "<group>"; };
-		DAF1D2E4289AF8EF005CC999 /* RSSProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAF1D2F2289AFA24005CC999 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +46,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAF1D2D1289AF8EF005CC999 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAF1D2DB289AF8EF005CC999 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA880BC7289B2DB10000F22B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA880BC8289B2DD30000F22B /* UiTableViewCell.swift */,
+				DA880BC9289B2DD30000F22B /* UiTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA880BCF289B4BDB0000F22B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAF1D2C7289AF8DC005CC999 /* NewsScreen.storyboard */,
+				DA880BD5289B50320000F22B /* ReadMoreScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA880BD0289B4BE10000F22B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAF1D2C5289AF8DC005CC999 /* NewsScreenViewController.swift */,
+				DA880BD7289B508F0000F22B /* ReadMoreViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		DAF1D2B5289AF8DC005CC999 = {
 			isa = PBXGroup;
 			children = (
 				DAF1D2C0289AF8DC005CC999 /* RSSProject */,
-				DAF1D2D7289AF8EF005CC999 /* RSSProjectTests */,
-				DAF1D2E1289AF8EF005CC999 /* RSSProjectUITests */,
 				DAF1D2BF289AF8DC005CC999 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				DAF1D2BE289AF8DC005CC999 /* RSSProject.app */,
-				DAF1D2D4289AF8EF005CC999 /* RSSProjectTests.xctest */,
-				DAF1D2DE289AF8EF005CC999 /* RSSProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +95,13 @@
 		DAF1D2C0289AF8DC005CC999 /* RSSProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA880BD9289B57370000F22B /* Extensions.swift */,
+				DAF1D2F1289AFA0A005CC999 /* Service */,
+				DA880BD0289B4BE10000F22B /* Controller */,
+				DA880BCF289B4BDB0000F22B /* View */,
+				DA880BC7289B2DB10000F22B /* Cell */,
 				DAF1D2C1289AF8DC005CC999 /* AppDelegate.swift */,
 				DAF1D2C3289AF8DC005CC999 /* SceneDelegate.swift */,
-				DAF1D2C5289AF8DC005CC999 /* ViewController.swift */,
-				DAF1D2C7289AF8DC005CC999 /* Main.storyboard */,
 				DAF1D2CA289AF8EE005CC999 /* Assets.xcassets */,
 				DAF1D2CC289AF8EE005CC999 /* LaunchScreen.storyboard */,
 				DAF1D2CF289AF8EE005CC999 /* Info.plist */,
@@ -110,21 +109,12 @@
 			path = RSSProject;
 			sourceTree = "<group>";
 		};
-		DAF1D2D7289AF8EF005CC999 /* RSSProjectTests */ = {
+		DAF1D2F1289AFA0A005CC999 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				DAF1D2D8289AF8EF005CC999 /* RSSProjectTests.swift */,
+				DAF1D2F2289AFA24005CC999 /* News.swift */,
 			);
-			path = RSSProjectTests;
-			sourceTree = "<group>";
-		};
-		DAF1D2E1289AF8EF005CC999 /* RSSProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DAF1D2E2289AF8EF005CC999 /* RSSProjectUITests.swift */,
-				DAF1D2E4289AF8EF005CC999 /* RSSProjectUITestsLaunchTests.swift */,
-			);
-			path = RSSProjectUITests;
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +137,6 @@
 			productReference = DAF1D2BE289AF8DC005CC999 /* RSSProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAF1D2D3289AF8EF005CC999 /* RSSProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAF1D2EB289AF8EF005CC999 /* Build configuration list for PBXNativeTarget "RSSProjectTests" */;
-			buildPhases = (
-				DAF1D2D0289AF8EF005CC999 /* Sources */,
-				DAF1D2D1289AF8EF005CC999 /* Frameworks */,
-				DAF1D2D2289AF8EF005CC999 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DAF1D2D6289AF8EF005CC999 /* PBXTargetDependency */,
-			);
-			name = RSSProjectTests;
-			productName = RSSProjectTests;
-			productReference = DAF1D2D4289AF8EF005CC999 /* RSSProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DAF1D2DD289AF8EF005CC999 /* RSSProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAF1D2EE289AF8EF005CC999 /* Build configuration list for PBXNativeTarget "RSSProjectUITests" */;
-			buildPhases = (
-				DAF1D2DA289AF8EF005CC999 /* Sources */,
-				DAF1D2DB289AF8EF005CC999 /* Frameworks */,
-				DAF1D2DC289AF8EF005CC999 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DAF1D2E0289AF8EF005CC999 /* PBXTargetDependency */,
-			);
-			name = RSSProjectUITests;
-			productName = RSSProjectUITests;
-			productReference = DAF1D2DE289AF8EF005CC999 /* RSSProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +149,6 @@
 				TargetAttributes = {
 					DAF1D2BD289AF8DC005CC999 = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					DAF1D2D3289AF8EF005CC999 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = DAF1D2BD289AF8DC005CC999;
-					};
-					DAF1D2DD289AF8EF005CC999 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = DAF1D2BD289AF8DC005CC999;
 					};
 				};
 			};
@@ -220,8 +166,6 @@
 			projectRoot = "";
 			targets = (
 				DAF1D2BD289AF8DC005CC999 /* RSSProject */,
-				DAF1D2D3289AF8EF005CC999 /* RSSProjectTests */,
-				DAF1D2DD289AF8EF005CC999 /* RSSProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,23 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA880BD6289B50320000F22B /* ReadMoreScreen.storyboard in Resources */,
 				DAF1D2CE289AF8EE005CC999 /* LaunchScreen.storyboard in Resources */,
+				DA880BCB289B2DD30000F22B /* UiTableViewCell.xib in Resources */,
 				DAF1D2CB289AF8EE005CC999 /* Assets.xcassets in Resources */,
-				DAF1D2C9289AF8DC005CC999 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAF1D2D2289AF8EF005CC999 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAF1D2DC289AF8EF005CC999 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DAF1D2C9289AF8DC005CC999 /* NewsScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,51 +190,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF1D2C6289AF8DC005CC999 /* ViewController.swift in Sources */,
+				DAF1D2C6289AF8DC005CC999 /* NewsScreenViewController.swift in Sources */,
 				DAF1D2C2289AF8DC005CC999 /* AppDelegate.swift in Sources */,
+				DAF1D2F3289AFA24005CC999 /* News.swift in Sources */,
 				DAF1D2C4289AF8DC005CC999 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAF1D2D0289AF8EF005CC999 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAF1D2D9289AF8EF005CC999 /* RSSProjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAF1D2DA289AF8EF005CC999 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAF1D2E3289AF8EF005CC999 /* RSSProjectUITests.swift in Sources */,
-				DAF1D2E5289AF8EF005CC999 /* RSSProjectUITestsLaunchTests.swift in Sources */,
+				DA880BCA289B2DD30000F22B /* UiTableViewCell.swift in Sources */,
+				DA880BD8289B508F0000F22B /* ReadMoreViewController.swift in Sources */,
+				DA880BDA289B57370000F22B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DAF1D2D6289AF8EF005CC999 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DAF1D2BD289AF8DC005CC999 /* RSSProject */;
-			targetProxy = DAF1D2D5289AF8EF005CC999 /* PBXContainerItemProxy */;
-		};
-		DAF1D2E0289AF8EF005CC999 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DAF1D2BD289AF8DC005CC999 /* RSSProject */;
-			targetProxy = DAF1D2DF289AF8EF005CC999 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		DAF1D2C7289AF8DC005CC999 /* Main.storyboard */ = {
+		DAF1D2C7289AF8DC005CC999 /* NewsScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DAF1D2C8289AF8DC005CC999 /* Base */,
 			);
-			name = Main.storyboard;
+			name = NewsScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		DAF1D2CC289AF8EE005CC999 /* LaunchScreen.storyboard */ = {
@@ -441,7 +347,7 @@
 				INFOPLIST_FILE = RSSProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = NewsScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +374,7 @@
 				INFOPLIST_FILE = RSSProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = NewsScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,78 +387,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DAF1D2EC289AF8EF005CC999 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrendonSambatti.RSSProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSProject.app/RSSProject";
-			};
-			name = Debug;
-		};
-		DAF1D2ED289AF8EF005CC999 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrendonSambatti.RSSProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSProject.app/RSSProject";
-			};
-			name = Release;
-		};
-		DAF1D2EF289AF8EF005CC999 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrendonSambatti.RSSProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RSSProject;
-			};
-			name = Debug;
-		};
-		DAF1D2F0289AF8EF005CC999 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrendonSambatti.RSSProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RSSProject;
 			};
 			name = Release;
 		};
@@ -573,24 +407,6 @@
 			buildConfigurations = (
 				DAF1D2E9289AF8EF005CC999 /* Debug */,
 				DAF1D2EA289AF8EF005CC999 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAF1D2EB289AF8EF005CC999 /* Build configuration list for PBXNativeTarget "RSSProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAF1D2EC289AF8EF005CC999 /* Debug */,
-				DAF1D2ED289AF8EF005CC999 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAF1D2EE289AF8EF005CC999 /* Build configuration list for PBXNativeTarget "RSSProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAF1D2EF289AF8EF005CC999 /* Debug */,
-				DAF1D2F0289AF8EF005CC999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
